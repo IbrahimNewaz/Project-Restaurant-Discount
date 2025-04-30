@@ -88,14 +88,6 @@ function Seniors_Discount(totalMemBer, age_60, TotalBill_60)
 // This Function is belong with Child & Seniors Both Discount //
 function Child_AND_Seniors_Discount(totalMembers, age_12, age_60, totalBillBoth) 
 {
-    // The logic and error handing by myself and syntex and code writhing by Bing co pilot //
-    /*buddy the logic is suppose total member is 12 adult 2 , seniors 5, and child 5
-    total bill 24560 taka now children got 100% discount so .... per person bill is 24560/10 =2046.66 taka total
-    children is 5 so 2046.66 * 5 = 10233.33 taka so total bill with discount children is = 24560 - 10233 14327 .00 taka 
-    now adult and seniors are total (2 +5) = 7 person now 14327 / 7 = 2046 . 71 taka total seniors are 5 person
-    so.... 2046.71 * 5 = 10233.55 taka with 60% discount 10233.55 / 100 * 60 = 6140 .13 taka
-    now... 14327 - 6140.13 = 8186.67 taka should be the answer or total bill but the code is not working like this....*/
-
     console.log("____________________________________________________________________________________________________________");
     console.log("Dear Guest, Welcome! Thank you for dining with us.");
 
